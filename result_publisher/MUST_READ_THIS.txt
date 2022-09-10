@@ -1,0 +1,20 @@
+### files to be created ###
+
+config.properties => must contain the following key value pairs
+	-EMAIL = yourEmail@gmail.com
+	-PASSWORD = emailPassword
+	-mail.smtp.auth=true
+	-mail.smtp.starttls.enable=true
+	-mail.smtp.host=smtp.gmail.com
+	-mail.smtp.port=587
+	-MY_API_KEY='your fast2sms api key here'
+	
+
+must create the following under result_publisher/data/
+folders:
+	-certificates
+	-excel_files
+	
+excel file:
+	-data.xls (must contain 12 columns in the following order with atleast one row of appropriate data)
+		Name, Roll, Math, Science, Social, English, Language2, Total, Passed, Parent's Name, Parent's Email, Parent's mobile
